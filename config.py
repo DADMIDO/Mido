@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "5385370603:AAHjSbZFL1OLl_uOm3v8lS0iKSYhRJS_bKs")
-SESSION_NAME = getenv("SESSION_NAME", "AgAGFRW8AN9biZhAIB_X7rubbTCwNtc48oa-geXlaVsQbV9M1emAEV_iGPw_W-lNP1HGbOuQgF9NAUIxlp8-6rgN16-7Upuhst2wCxewyx0VP7Cxb5k_9EXap6_xeU2v4So9RZMt95XYxhGc4hWO_ikd9P46iHLMjXW8GjQAnGvY-bIrM6XqIXF1yeC3vixEa8knOHGkedZU3FYyLhEILy8TV6eH5jOGvsyw5o7xFElb2zZId_vlYO--B3xSWIMUR6zyH8wozehe9tIn0jZptYjY1rqWOMoYS9wtqvBThVazL60nrgL-KdikJC9beDJLLR0C-wzuAtARPCZ-JK6oG-gVAAAAAUM3evYA")
+API_ID = int(getenv("API_ID", "25711100"))
+API_HASH = getenv("API_HASH", "0118cc1662da972d0206420a7886769a")
+BOT_TOKEN = getenv("BOT_TOKEN", "6034374468:AAEnB8MuEres4zWPFWWrB898n3YNGN-lqq0")
+SESSION_NAME = getenv("SESSION_NAME", "BACDtgfAbRPySB7Ab1IEp9SZsAHR6op-_vB_72_X3ZMEKZHQnY5WJk-sj86O9rT9cyBXY_WwyUaclQ0OI3vaW-l_TguqQ7GA0N7YkYbTB1OUgDu3fcUNS9VDG2Aa8knARAhhuZBZ6kdaXCHxQzBvNhML4HTfMAxo2yxbJlqiMLUYTa93n_6h-5fp-QsZ-ZFnWZ2mvd6Xuj9-K5btKA09AjrbU1gy3eqZM5qohrOyb-cK3-aQwi-2NKvuzl5-Rc83oypKdclAPPs4WbLlW0r4icauhi9IyS70oFCpepA3mU6uJkmBusQ5xQfqprYEPbIXrSvy95gK-sjA2-yFVNLwAo67ULf5dwA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
-ALIVE_NAME = getenv("ALIVE_NAME", "song")
-BOT_USERNAME = getenv("BOT_USERNAME", "W7MBoT")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "DAD_MIDO")
+ALIVE_NAME = getenv("ALIVE_NAME", "🇲 🇮 🇩 🇴  🇧 🇦 🇸 🇭")
+BOT_USERNAME = getenv("BOT_USERNAME", "B78_Bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "DAD_MIDO")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Ad_mido")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1354234231").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1354234231").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
